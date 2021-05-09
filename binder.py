@@ -62,7 +62,7 @@ if not os.path.exists('pool'):  #creo directory pool se non esiste
 if not os.path.exists('binded'):  #creo directory watermarked
 	os.makedirs('binded')
 
-os.chdir(os.path.join(__location__, "pool"))
+os.chdir("pool")
 
 title = input("Inserire titolo del pdf finale\n")
 #author = input("Inserire autore del pdf\n")
